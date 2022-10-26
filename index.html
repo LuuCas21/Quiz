@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lucas Rosa de Souza">
+    <meta name="description" content="Challenge your knowledge by answering to these questions!">
+    <link rel="stylesheet" type="text/css" href="/styles/style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="quiz_board">
+            <div class="quiz_question">
+                <span class="question"></span>
+            </div>
+
+            <div class="quiz_score">
+                <span><span class="amount"></span> / 20</span>
+                <span class="score"></span>
+            </div>
+
+            <div class="quiz_options">
+                <ul class="ul">
+                    <li class="option_list"><span class="option">A</span> <span class="option_answer option_a">Asia</span></li>
+                    <li class="option_list"><span class="option">B</span> <span class="option_answer option_b">America</span></li>
+                    <li class="option_list"><span class="option">C</span> <span class="option_answer option_c">Africa</span></li>
+                    <li class="option_list"><span class="option">D</span> <span class="option_answer option_d">Europe</span></li>
+                </ul>
+                <button class="btn" onclick="getNewIndexAndRender('next')">Next</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
